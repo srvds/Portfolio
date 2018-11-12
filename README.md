@@ -13,12 +13,6 @@ Click on the projects to see the documentation and code.(being build,meanwhile c
 ## Projects:
 
 ###  [Human Activity Recognition](https://github.com/srvds/Human-Activity-Recognition)
-* Predicts the human activities s
-* Accelerometer and Gyroscope readings are taken from 30 volunteers with smart phone straped to their waist while performing the following 6 Activities.
- 1 Walking
- * WalkingUpstairs
- * WalkingDownstairs
- * Standing
- * Sitting
- * Lying
-* Modeled as a multi class classification
+* Predicts the human activities
+* Accelerometer and Gyroscope readings are taken from 30 volunteers with smart phone straped to their waist while performing the following 6 Activities. 1. Walking | 2. WalkingUpstairs | 3. WalkingDownstairs | 4. Standing | 5. Sitting | 6. Lying
+* Modeled as a 6 class classification
