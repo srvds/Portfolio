@@ -12,5 +12,5 @@ Click on the projects to see the documentation and code.(being build,meanwhile c
 
 ## Projects:
 
-###  [Human Activity Recognition](https://github.com/srvds/Human-Activity-Recognition/Human-Activity_Recognition.MD)
+###  [Human Activity Recognition](https://github.com/srvds/Human-Activity-Recognition/Human-Activity_Recognition.md)
 * 
