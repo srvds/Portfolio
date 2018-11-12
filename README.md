@@ -13,4 +13,7 @@ Click on the projects to see the documentation and code.(being build,meanwhile c
 ## Projects:
 
 ###  [Human Activity Recognition](https://github.com/srvds/Human-Activity-Recognition)
-* 
+* predicts the human activities s
+* Modeled as a multi class classification with the 6 classes being
+Walking | Walking_Upstairs | Walking_Downstairs | Sitting | Standing 
+| Laying
