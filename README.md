@@ -14,15 +14,11 @@ Click on the projects to see the documentation and code.(being build,meanwhile c
 
 ###  [Human Activity Recognition](https://github.com/srvds/Human-Activity-Recognition)
 * Predicts the human activities
-* Accelerometer and Gyroscope readings are taken from 30 volunteers with smart phone straped to their waist while performing the following 6 Activities. | 1. Walking | 2. WalkingUpstairs | 3. WalkingDownstairs | 4. Standing | 5. Sitting | 6. Lying
+* Accelerometer and Gyroscope readings with smart phone straped to the waist while performing the following 6 Activities.
+| 1. Walking | 2. WalkingUpstairs | 3. WalkingDownstairs | 4. Standing | 5. Sitting | 6. Lying
 * Modeled as a 6 class classification problem.
 * The raw data is featurized with the help of Domain expert.
 * The Classical Machine Learning Algorithms were trained on the featured data and tuned with Grid Search CV
-| ---                 | Accuracy  |  Error |
-| ---                 |---------  | --------|
-|Logistic Regression :| 96.27%    |  3.733% |
-|Linear SVC          :| 96.61%    |  3.393% |
-|rbf SVM classifier  :| 96.27%    | 3.733% |
-|DecisionTree        :| 86.43%    | 13.57% |
-|Random Forest       :| 91.31%    | 8.687% |
-|GradientBoosting DT :| 91.31%    | 8.687% |
+* The LSTM model was trained on Raw data to compare the results. This truely demonstrates the power of deep learning.
+<img src="github.com/srvds/Human-Activity-Recognition/blob/master/t-sne_perp_50_iter_1000.png" width="500">
+
