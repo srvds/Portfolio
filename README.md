@@ -14,11 +14,11 @@ Click on the projects to see the documentation and code.(being build,meanwhile c
 
 ###  [Human Activity Recognition](https://github.com/srvds/Human-Activity-Recognition)
 * Predicts the human activities s
-* Modeled as a multi class classification
-* Accelerometer and Gyroscope readings are taken from 30 volunteers(referred as subjects) while performing the following 6 Activities.
- * Walking
+* Accelerometer and Gyroscope readings are taken from 30 volunteers with smart phone straped to their waist while performing the following 6 Activities.
+ 1 Walking
  * WalkingUpstairs
  * WalkingDownstairs
  * Standing
  * Sitting
- * Lying.
+ * Lying
+* Modeled as a multi class classification
