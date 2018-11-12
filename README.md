@@ -20,5 +20,6 @@ Click on the projects to see the documentation and code.(being build,meanwhile c
 * The raw data is featurized with the help of Domain expert.
 * The Classical Machine Learning Algorithms were trained on the featured data and tuned with Grid Search CV
 * The LSTM model was trained on Raw data to compare the results. This truely demonstrates the power of deep learning.
+* ** t-sne Visualization **
 <img src="https://github.com/srvds/Human-Activity-Recognition/blob/master/t-sne_perp_50_iter_1000.png" width="800">
 
