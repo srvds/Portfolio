@@ -21,5 +21,25 @@ Click on the projects to see the documentation and code.
 * **t-sne Visualization**
 <img src="https://github.com/srvds/Human-Activity-Recognition/blob/master/t-sne_perp_50_iter_1000.png" width="700">
 
-###  []
-
+###  [Amazon Fashion Prediction System](https://github.com/srvds/Amazon-Fashion-Prediction-Engine)
+* Predict similar apparel and recommend those apparell based on which apparel(query product) the user is watching.
+* Data acquired in policy compliant manner using Amazon API.
+* Text based product recommendation, i.e using product title, brand, description, color and price.
+* Results with Text Featurized using BOW,TF-IDF, IDF,average word2vec,IDF weighted word2vec are subjectively compared.
+* Product Image based model using **VGG-16 CNN** also trained.
+* Final model build as a weighted Nearest neighbor model using Image,Title,Brand and Color
+* final model uses
+ * title:Idf-Word2vec
+ * brand:one hot encoding
+ * colour:one hot encoding
+ * image: VGG-16 CNN
+ 
+###  [Taxi Demand Prediction](https://github.com/srvds/Taxi-Demand_Prediction)
+* Predicted number of pickups, given location cordinates(latitude and longitude) and time.
+* Time-series forecasting and Regression.
+* New York citymap is divided into several regions based on region radius and density of passenger.
+<p float="left">
+ <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot1.PNG" width="300">
+ <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot2.png" width="400" height="400">
+</p>
+ 
