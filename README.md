@@ -29,16 +29,21 @@ Click on the projects to see the documentation and code.
 * Product Image based model using **VGG-16 CNN** also trained.
 * Final model build as a weighted Nearest neighbor model using Image,Title,Brand and Color
 * final model uses title:Idf-Word2vec, brand:one hot encoding, colour:one hot encoding, image: VGG-16 CNN
-* **Query product and a suggestion**
+* **Left: Query product        Right: suggested product**
 <p float="left">
  <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot1.PNG" width="400">
- <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot2.PNG" width="450" height="450">
+ <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot2.PNG" width="400">
 </p>
  
 ###  [Taxi Demand Prediction](https://github.com/srvds/Taxi-Demand_Prediction)
-* Predicted number of pickups, given location cordinates(latitude and longitude) and time.
+* Predicted number of pickups, given location cordinates(latitude and longitude) and time of the day.
 * Time-series forecasting and Regression.
 * New York citymap is divided into several regions based on region radius and density of passenger.
+* **K-means clustering** used for geometric division of the city map
+* Time series data is divided into 10 minutes interval.
+* Frequency domain features are also used along with time domain data to improve the model.
+* Linear Regression, Random Forest and Gradient Boosted Decision trees(GBDT) models were trained and tested.
+* GBDT model performed better than other models
 <p float="left">
  <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot1.PNG" width="400">
  <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot2.png" width="450" height="450">
