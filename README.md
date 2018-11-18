@@ -67,3 +67,15 @@ Click on the projects to see the documentation and code.
 
 * Word Cloud for Duplicate Question pairs<br>
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot2.png">
+
+###  [Personalized Cancer Diagnosis](https://github.com/srvds/Personalized-Cancer-Diagnosis)
+* Classified the given genetic variations/mutations based on evidence from text-based clinical literature into 9 classes.
+* dataset 3 important attributes 'Gene' 'Variation' and 'Clinical text'.
+* Dataset is imbalanced, modeled with and with out balancing to compare results.
+* Clinical text featurized using tf-idf. Gene and variation are featured using both One-hot encoding and response coding.
+* Dimensionality reduction of text vector using truncated SVD.
+* fitted and compared various models including Logisting Regression, Linear SVC , Naive Bayes and Random forest
+* experimented with stacking the models and also to use max-voting on the results of the models.
+* Interpretability of results is important here so a calibrated classifier is stacked with the models 
+* ploted Confusion,precision and recall matrices to have more Interpretability.
+<img src="https://github.com/srvds/Personalized-Cancer-Diagnosis/blob/master/plots/rf-responsecode-pricision.png">
