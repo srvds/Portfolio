@@ -28,18 +28,19 @@ Click on the projects to see the documentation and code.
 * Results with Text Featurized using BOW,TF-IDF, IDF,average word2vec,IDF weighted word2vec are subjectively compared.
 * Product Image based model using **VGG-16 CNN** also trained.
 * Final model build as a weighted Nearest neighbor model using Image,Title,Brand and Color
-* final model uses
- * title:Idf-Word2vec
- * brand:one hot encoding
- * colour:one hot encoding
- * image: VGG-16 CNN
+* final model uses title:Idf-Word2vec, brand:one hot encoding, colour:one hot encoding, image: VGG-16 CNN
+* **Query product and a suggestion**
+<p float="left">
+ <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot1.PNG" width="400">
+ <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot2.PNG" width="450" height="450">
+</p>
  
 ###  [Taxi Demand Prediction](https://github.com/srvds/Taxi-Demand_Prediction)
 * Predicted number of pickups, given location cordinates(latitude and longitude) and time.
 * Time-series forecasting and Regression.
 * New York citymap is divided into several regions based on region radius and density of passenger.
 <p float="left">
- <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot1.PNG" width="300">
- <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot2.png" width="400" height="400">
+ <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot1.PNG" width="400">
+ <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot2.png" width="450" height="450">
 </p>
  
