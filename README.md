@@ -29,11 +29,11 @@ Click on the projects to see the documentation and code.
 * Product Image based model using **VGG-16 CNN** also trained.
 * Final model build as a weighted Nearest neighbor model using Image,Title,Brand and Color
 * final model uses title:Idf-Word2vec, brand:one hot encoding, colour:one hot encoding, image: VGG-16 CNN
-* **Left: Query product        Right: suggested product**
-<p float="left">
+* **Query product**     
  <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot1.PNG" width="400">
+ 
+* **Suggested product**
  <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot2.PNG" width="400">
-</p>
  
 ###  [Taxi Demand Prediction](https://github.com/srvds/Taxi-Demand_Prediction)
 * Predicted number of pickups, given location cordinates(latitude and longitude) and time of the day.
@@ -48,4 +48,22 @@ Click on the projects to see the documentation and code.
  <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot1.PNG" width="400">
  <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot2.png" width="450" height="450">
 </p>
- 
+
+###  [Quora question similarity](https://github.com/srvds/Quora-question-similarity)
+* Identify which questions asked on Quora are duplicates of questions that have already been asked.
+* Modelled as classification problem with class as duplicate and not duplicate
+* 15 features are extracted, some of them are
+ * word_common: Number of common unique words in question1 and question2
+ * word_total: toal number of words in qs1 + total number of words in qs2
+ * word_share: (word_common) / (word_total)
+ * common_word_count / min( len(q1 word), len(q2 word))
+* along with the above extracted features question text is featured using tf-idf
+* Fitted Logistic Regression, Linear SVM and XGboost gradient boosted decision trees
+* Question appearance count
+ <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot3.png">
+* Word Cloud for Duplicate Question pairs<br>
+
+ <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot1.png">
+
+* Word Cloud for Duplicate Question pairs<br>
+ <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot2.png">
