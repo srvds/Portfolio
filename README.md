@@ -9,7 +9,7 @@ All the projects will mostly focus on utilizing Machine Learning and Deep Learni
 * Most of it can also be found in the respective Jupyter notebooks even if the README files are not yet updated
 
 Click on the projects to see the documentation and code.
-(Project Repository README are being build,meanwhile check the ipython notebooks, they are sufficiently documented)
+(Project Repository README are being built,meanwhile check the ipython notebooks, they are sufficiently documented)
 
 ## Projects:
 
@@ -30,7 +30,7 @@ Click on the projects to see the documentation and code.
 * Results with Text Featurized using BOW,TF-IDF, IDF,average word2vec,IDF weighted word2vec are subjectively compared.
 * Product Image based model using **VGG-16 CNN** also trained.
 * Final model build as a weighted Nearest neighbor model using Image,Title,Brand and Color
-* final model uses title:Idf-Word2vec, brand:one hot encoding, colour:one hot encoding, image: VGG-16 CNN
+* Final model uses title:Idf-Word2vec, brand:one hot encoding, colour:one hot encoding, image: VGG-16 CNN
 * **Query product**     
  <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot1.PNG" width="400">
  
@@ -63,7 +63,7 @@ Click on the projects to see the documentation and code.
  * word_total: toal number of words in qs1 + total number of words in qs2.
  * word_share: (word_common) / (word_total)
  * common_word_count / min( len(q1 word), len(q2 word))
-* along with the above extracted features question text is featured using tf-idf.
+* Along with the above extracted features question text is featured using tf-idf.
 * Fitted Logistic Regression, Linear SVM and XGboost gradient boosted decision trees.
 * Question appearance count.
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot3.png">
@@ -88,13 +88,13 @@ Click on the projects to see the documentation and code.
 
 ###  [Personalized Cancer Diagnosis](https://github.com/srvds/Personalized-Cancer-Diagnosis)
 * Classified the given genetic variations/mutations based on evidence from text-based clinical literature into 9 classes.
-* dataset 3 important attributes 'Gene' 'Variation' and 'Clinical text'.
+* Dataset has 3 important attributes 'Gene' 'Variation' and 'Clinical text'.
 * Dataset is imbalanced, modeled with and with out balancing to compare results.
 * Clinical text featurized using tf-idf. Gene and variation are featured using both One-hot encoding and response coding.
 * Dimensionality reduction of text vector using truncated SVD.
-* fitted and compared various models including Logisting Regression, Linear SVC , Naive Bayes and Random forest
-* experimented with stacking the models and also to use max-voting on the results of the models.
+* Fitted and compared various models including Logisting Regression, Linear SVC , Naive Bayes and Random forest
+* Experimented with stacking the models and also to use max-voting on the results of the models.
 * Interpretability of results is important here so a calibrated classifier is stacked with the models 
-* ploted Confusion,precision and recall matrices to have more Interpretability.
+* Ploted Confusion,precision and recall matrices to have more Interpretability.
 <img src="https://github.com/srvds/Personalized-Cancer-Diagnosis/blob/master/plots/rf-responsecode-pricision.png">
 
