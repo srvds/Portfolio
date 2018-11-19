@@ -48,6 +48,7 @@ Click on the projects to see the documentation and code.
 * Frequency domain features are also used along with time domain data to improve the model.
 * Linear Regression, Random Forest and Gradient Boosted Decision trees(GBDT) models were trained and tested.
 * GBDT model performed better than other models
+* **Plots shows how the map of the city is divided into different regions, each color is a region**
 <p float="left">
  <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot1.PNG" width="400">
  <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot2.png" width="450" height="450">
@@ -82,6 +83,7 @@ Click on the projects to see the documentation and code.
 * Generated user-user and movie-movie similarity matrix.
 * Featurized the data further into 13 features.
 * Models trained: Surprise-baseline, Surprise-knn-baseline, Surprise-SVD++, XGboost
+* **Importance in Gradient Boosted Decision Trees**
 <img src="https://github.com/srvds/Netflix-Movie-Recommendation/blob/master/plots/plot1.png">
 
 ---
@@ -96,5 +98,6 @@ Click on the projects to see the documentation and code.
 * Experimented with stacking the models and also to use max-voting on the results of the models.
 * Interpretability of results is important here so a calibrated classifier is stacked with the models 
 * Ploted Confusion,precision and recall matrices to have more Interpretability.
+* **Random-forest-precision matrix**
 <img src="https://github.com/srvds/Personalized-Cancer-Diagnosis/blob/master/plots/rf-responsecode-pricision.png">
 
