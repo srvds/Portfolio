@@ -21,6 +21,8 @@ Click on the projects to see the documentation and code.
 * **t-sne Visualization**
 <img src="https://github.com/srvds/Human-Activity-Recognition/blob/master/t-sne_perp_50_iter_1000.png" width="700">
 
+---
+
 ###  [Amazon Fashion Prediction System](https://github.com/srvds/Amazon-Fashion-Prediction-Engine)
 * Predict similar apparel and recommend those apparell based on which apparel(query product) the user is watching.
 * Data acquired in policy compliant manner using Amazon API.
@@ -34,7 +36,9 @@ Click on the projects to see the documentation and code.
  
 * **Suggested product**
  <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot2.PNG" width="400">
- 
+
+---
+
 ###  [Taxi Demand Prediction](https://github.com/srvds/Taxi-Demand_Prediction)
 * Predicted number of pickups, given location cordinates(latitude and longitude) and time of the day.
 * Time-series forecasting and Regression.
@@ -49,24 +53,38 @@ Click on the projects to see the documentation and code.
  <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot2.png" width="450" height="450">
 </p>
 
+---
+
 ###  [Quora question similarity](https://github.com/srvds/Quora-question-similarity)
 * Identify which questions asked on Quora are duplicates of questions that have already been asked.
-* Modelled as classification problem with class as duplicate and not duplicate
-* 15 features are extracted, some of them are
- * word_common: Number of common unique words in question1 and question2
- * word_total: toal number of words in qs1 + total number of words in qs2
+* Modelled as classification problem with class as duplicate and not duplicate.
+* 15 features are extracted, some of them are:
+ * word_common: Number of common unique words in question1 and question2.
+ * word_total: toal number of words in qs1 + total number of words in qs2.
  * word_share: (word_common) / (word_total)
  * common_word_count / min( len(q1 word), len(q2 word))
-* along with the above extracted features question text is featured using tf-idf
-* Fitted Logistic Regression, Linear SVM and XGboost gradient boosted decision trees
-* Question appearance count
+* along with the above extracted features question text is featured using tf-idf.
+* Fitted Logistic Regression, Linear SVM and XGboost gradient boosted decision trees.
+* Question appearance count.
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot3.png">
-* Word Cloud for Duplicate Question pairs<br>
+* Word Cloud for Duplicate Question pairs.<br>
 
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot1.png">
 
-* Word Cloud for Duplicate Question pairs<br>
+* Word Cloud for Duplicate Question pairs.<br>
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot2.png">
+
+---
+
+###  [Netflix Movie Recommendation System](https://github.com/srvds/Netflix-Movie-Recommendation)
+* Predicted the rating that a user would give to a movie that they have not yet rated.
+* Minimized the difference between predicted and actual rating (RMSE and MAPE).
+* Generated user-user and movie-movie similarity matrix.
+* Featurized the data further into 13 features.
+* Models trained: Surprise-baseline, Surprise-knn-baseline, Surprise-SVD++, XGboost
+<img src="https://github.com/srvds/Netflix-Movie-Recommendation/blob/master/plots/plot1.png">
+
+---
 
 ###  [Personalized Cancer Diagnosis](https://github.com/srvds/Personalized-Cancer-Diagnosis)
 * Classified the given genetic variations/mutations based on evidence from text-based clinical literature into 9 classes.
@@ -79,3 +97,4 @@ Click on the projects to see the documentation and code.
 * Interpretability of results is important here so a calibrated classifier is stacked with the models 
 * ploted Confusion,precision and recall matrices to have more Interpretability.
 <img src="https://github.com/srvds/Personalized-Cancer-Diagnosis/blob/master/plots/rf-responsecode-pricision.png">
+
