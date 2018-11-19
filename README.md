@@ -68,6 +68,7 @@ Click on the projects to see the documentation and code.
 * Fitted Logistic Regression, Linear SVM and XGboost gradient boosted decision trees.
 * Question appearance count.
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot3.png">
+ 
 * Word Cloud for Duplicate Question pairs.<br>
 
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot1.png">
