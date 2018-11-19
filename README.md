@@ -73,7 +73,7 @@ Click on the projects to see the documentation and code.
 
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot1.png">
 
-* Word Cloud for Duplicate Question pairs.<br>
+* Word Cloud for non-Duplicate Question pairs.<br>
  <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot2.png">
 
 ---
