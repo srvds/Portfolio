@@ -1,5 +1,6 @@
 # Data Science Portfolio
 
+UPDATE: I have made some of the repositories private that i can share when requested
 
 In this repository, I have put some of the Data science projects, I have worked on or currently working. 
 All the projects will mostly focus on utilizing Machine Learning and Deep Learning Techniques to design data science or statistical models, that either solves a problem or discovers important information about the data.
