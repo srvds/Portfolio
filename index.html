@@ -3,49 +3,276 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sourav Das | Data Science & Analytics Portfolio</title>
+    <title>Data Science & Statistical Portfolio | Sourav Das</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 40px; color: #333; background-color: #f4f7f6; }
-        .container { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        .project { margin-bottom: 50px; padding-bottom: 30px; border-bottom: 1px solid #eee; }
-        img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; margin-top: 15px; display: block; }
-        a { color: #3498db; text-decoration: none; font-weight: bold; }
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #475569;
+            --accent: #2563eb;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        header {
+            margin-bottom: 3rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 1.5rem;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #0f172a; }
+        h2 { font-size: 1.75rem; color: #0f172a; margin-top: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+        h3 { font-size: 1.4rem; margin-bottom: 0.75rem; }
+        h3 a { color: var(--accent); text-decoration: none; }
+        h3 a:hover { text-decoration: underline; }
+        .subtitle { font-size: 1.1rem; color: var(--text-muted); font-weight: 500; }
+        .notice-box {
+            background-color: #eff6ff;
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin: 1.5rem 0;
+        }
+        .project-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+        li { margin-bottom: 0.5rem; color: var(--text-muted); }
+        .inner-list { margin-top: 0.25rem; }
+        .activity-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+        .activity-table td {
+            border: 1px solid var(--border);
+            padding: 0.5rem 0.75rem;
+            text-align: center;
+            background: #f1f5f9;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1.25rem;
+        }
+        .img-container {
+            flex: 1;
+            min-width: 300px;
+            background: #fafafa;
+            border: 1px solid var(--border);
+            border-radius: 0.25rem;
+            padding: 0.5rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 0.125rem;
+        }
+        .img-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        code {
+            background: #f1f5f9;
+            padding: 0.2rem 0.4rem;
+            border-radius: 0.25rem;
+            font-family: monospace;
+            font-size: 0.9em;
+            color: #0f172a;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Sourav Das</h1>
-        <p><strong>Professional Data Science & Analytical Services</strong></p>
-        <p>Providing high-fidelity data processing, statistical modeling, and analytical reporting.</p>
 
-        <!-- Amazon Fashion -->
-        <div class="project">
-            <h3><a href="https://github.com/srvds/Amazon-Fashion-Prediction-Engine">Amazon Fashion Prediction Engine</a></h3>
-            <p>Weighted Nearest Neighbor model using VGG-16 CNN and TF-IDF for apparel recommendation.</p>
-            <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot1.PNG?raw=true" alt="Amazon Fashion Query">
+    <header>
+        <h1>Data Science Portfolio</h1>
+        <div class="subtitle">2018 - Present</div>
+        
+        <div class="notice-box">
+            <strong>UPDATE:</strong> I have made some of the repositories private that I can share when requested.<br><br>
+            In this repository, I have put some of the Data science projects, I have worked on or currently working. All the projects will mostly focus on utilizing Machine Learning and Deep Learning Techniques to design data science or statistical models, that either solves a problem or discovers important information about the data.
         </div>
 
-        <!-- Taxi Demand -->
-        <div class="project">
-            <h3><a href="https://github.com/srvds/Taxi-Demand_Prediction">NYC Taxi Demand Prediction</a></h3>
-            <p>Geospatial clustering (K-Means) and GBDT models for fleet optimization.</p>
-            <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot1.PNG?raw=true" alt="Taxi Demand Plot">
-        </div>
+        <p><strong>NOTE:</strong></p>
+        <ul>
+            <li>I am in the process of Documenting the projects like how to reproduce results and more.</li>
+            <li>Most of it can also be found in the respective Jupyter notebooks even if the README files are not yet updated.</li>
+        </ul>
+        <p><em>Click on the projects to see the documentation and code. (Project Repository README are being built, meanwhile check the ipython notebooks, they are sufficiently documented)</em></p>
+    </header>
 
-        <!-- Quora Similarity -->
-        <div class="project">
-            <h3><a href="https://github.com/srvds/Quora-question-similarity">Quora Question Similarity</a></h3>
-            <p>Classification engine identifying duplicate inquiries using XGBoost and linguistic features.</p>
-            <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot1.png?raw=true" alt="Quora Word Cloud">
-        </div>
+    <h2>Projects</h2>
 
-        <!-- Cancer Diagnosis -->
-        <div class="project">
-            <h3><a href="https://github.com/srvds/Personalized-Cancer-Diagnosis">Personalized Cancer Diagnosis</a></h3>
-            <p>Classification of genetic mutations using calibrated stacking models.</p>
-            <img src="https://github.com/srvds/Personalized-Cancer-Diagnosis/blob/master/plots/rf-responsecode-pricision.png?raw=true" alt="Precision Matrix">
+    <!-- Project 1 -->
+    <div class="project-card">
+        <h3><a href="https://github.com/srvds/Human-Activity-Recognition" target="_blank">Human Activity Recognition</a></h3>
+        <ul>
+            <li>Predicted Activity based on Accelerometer and Gyroscope readings from smart phone</li>
+        </ul>
+        
+        <table class="activity-table">
+            <tr>
+                <td>1. Walking</td>
+                <td>2. WalkingUpstairs</td>
+                <td>3. WalkingDownstairs</td>
+                <td>4. Standing</td>
+                <td>5. Sitting</td>
+                <td>6. Lying</td>
+            </tr>
+        </table>
+
+        <ul>
+            <li>Fitted Logistic Regression | Linear SVC | rbf SVM classifier | DecisionTree | Random Forest | GradientBoosting DT on featured data</li>
+            <li>LSTM model trained on Raw data</li>
+            <li><strong>t-sne Visualization</strong></li>
+        </ul>
+        <div class="gallery">
+            <div class="img-container" style="max-width: 700px;">
+                <img src="https://github.com/srvds/Human-Activity-Recognition/blob/master/t-sne_perp_50_iter_1000.png?raw=true" alt="t-sne Visualization">
+            </div>
         </div>
     </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+        <h3><a href="https://github.com/srvds/Amazon-Fashion-Prediction-Engine" target="_blank">Amazon Fashion Prediction System</a></h3>
+        <ul>
+            <li>Predict similar apparel and recommend those apparell based on which apparel(query product) the user is watching.</li>
+            <li>Data acquired in policy compliant manner using Amazon API.</li>
+            <li>Text based product recommendation, i.e using product title, brand, description, color and price.</li>
+            <li>Results with Text Featurized using BOW, TF-IDF, IDF, average word2vec, IDF weighted word2vec are subjectively compared.</li>
+            <li>Product Image based model using <strong>VGG-16 CNN</strong> also trained.</li>
+            <li>Final model build as a weighted Nearest neighbor model using Image, Title, Brand and Color</li>
+            <li>Final model uses title: Idf-Word2vec, brand: one hot encoding, colour: one hot encoding, image: VGG-16 CNN</li>
+        </ul>
+        <div class="gallery">
+            <div class="img-container">
+                <div class="img-label"><strong>Query product</strong></div>
+                <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot1.PNG?raw=true" alt="Query Product">
+            </div>
+            <div class="img-container">
+                <div class="img-label"><strong>Suggested product</strong></div>
+                <img src="https://github.com/srvds/Amazon-Fashion-Prediction-Engine/blob/master/plots/plot2.PNG?raw=true" alt="Suggested Product">
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+        <h3><a href="https://github.com/srvds/Taxi-Demand_Prediction" target="_blank">Taxi Demand Prediction</a></h3>
+        <ul>
+            <li>Predicted number of pickups, given location cordinates(latitude and longitude) and time of the day.</li>
+            <li>Time-series forecasting and Regression.</li>
+            <li>New York citymap is divided into several regions based on region radius and density of passenger.</li>
+            <li><strong>K-means clustering</strong> used for geometric division of the city map</li>
+            <li>Time series data is divided into 10 minutes interval.</li>
+            <li>Frequency domain features are also used along with time domain data to improve the model.</li>
+            <li>Linear Regression, Random Forest and Gradient Boosted Decision trees(GBDT) models were trained and tested.</li>
+            <li>GBDT model performed better than other models</li>
+            <li><strong>Plots shows how the map of the city is divided into different regions, each color is a region</strong></li>
+        </ul>
+        <div class="gallery">
+            <div class="img-container" style="max-width: 400px;">
+                <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot1.PNG?raw=true" alt="Taxi Map Cluster 1">
+            </div>
+            <div class="img-container" style="max-width: 450px;">
+                <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot2.png?raw=true" alt="Taxi Map Cluster 2">
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+        <h3><a href="https://github.com/srvds/Quora-question-similarity" target="_blank">Quora question similarity</a></h3>
+        <ul>
+            <li>Identify which questions asked on Quora are duplicates of questions that have already been asked.</li>
+            <li>Modelled as classification problem with class as duplicate and not duplicate.</li>
+            <li>15 features are extracted, some of them are:
+                <ul class="inner-list">
+                    <li><code>word_common</code>: Number of common unique words in question1 and question2.</li>
+                    <li><code>word_total</code>: total number of words in qs1 + total number of words in qs2.</li>
+                    <li><code>word_share</code>: (word_common) / (word_total)</li>
+                    <li>common_word_count / min( len(q1 word), len(q2 word))</li>
+                </ul>
+            </li>
+            <li>Along with the above extracted features question text is featured using tf-idf.</li>
+            <li>Fitted Logistic Regression, Linear SVM and XGboost gradient boosted decision trees.</li>
+            <li>Question appearance count.</li>
+        </ul>
+        <div class="gallery">
+            <div class="img-container">
+                <div class="img-label">Question appearance count</div>
+                <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot3.png?raw=true" alt="Question Appearance Plot">
+            </div>
+            <div class="img-container">
+                <div class="img-label">Word Cloud for Duplicate Question pairs</div>
+                <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot1.png?raw=true" alt="Duplicate Word Cloud">
+            </div>
+            <div class="img-container">
+                <div class="img-label">Word Cloud for non-Duplicate Question pairs</div>
+                <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot2.png?raw=true" alt="Non-Duplicate Word Cloud">
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+        <h3><a href="https://github.com/srvds/Netflix-Movie-Recommendation" target="_blank">Netflix Movie Recommendation System</a></h3>
+        <ul>
+            <li>Predicted the rating that a user would give to a movie that they have not yet rated.</li>
+            <li>Minimized the difference between predicted and actual rating (RMSE and MAPE).</li>
+            <li>Generated user-user and movie-movie similarity matrix.</li>
+            <li>Featurized the data further into 13 features.</li>
+            <li>Models trained: Surprise-baseline, Surprise-knn-baseline, Surprise-SVD++, XGboost</li>
+            <li><strong>Importance in Gradient Boosted Decision Trees</strong></li>
+        </ul>
+        <div class="gallery">
+            <div class="img-container">
+                <img src="https://github.com/srvds/Netflix-Movie-Recommendation/blob/master/plots/plot1.png?raw=true" alt="Feature Importance Plot">
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="project-card">
+        <h3><a href="https://github.com/srvds/Personalized-Cancer-Diagnosis" target="_blank">Personalized Cancer Diagnosis</a></h3>
+        <ul>
+            <li>Classified the given genetic variations/mutations based on evidence from text-based clinical literature into 9 classes.</li>
+            <li>Dataset has 3 important attributes 'Gene' 'Variation' and 'Clinical text'.</li>
+            <li>Dataset is imbalanced, modeled with and with out balancing to compare results.</li>
+            <li>Clinical text featurized using tf-idf. Gene and variation are featured using both One-hot encoding and response coding.</li>
+            <li>Dimensionality reduction of text vector using truncated SVD.</li>
+            <li>Fitted and compared various models including Logistic Regression, Linear SVC , Naive Bayes and Random forest</li>
+            <li>Experimented with stacking the models and also to use max-voting on the results of the models.</li>
+            <li>Interpretability of results is important here so a calibrated classifier is stacked with the models</li>
+            <li>Ploted Confusion, precision and recall matrices to have more Interpretability.</li>
+            <li><strong>Random-forest-precision matrix</strong></li>
+        </ul>
+        <div class="gallery">
+            <div class="img-container">
+                <img src="https://github.com/srvds/Personalized-Cancer-Diagnosis/blob/master/plots/rf-responsecode-pricision.png?raw=true" alt="Precision Matrix">
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
