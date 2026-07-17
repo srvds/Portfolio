@@ -81,26 +81,40 @@
         .footer-bottom { text-align: center; color: #64748b; font-size: 0.85rem; margin-top: 2rem; }
 
         /* Background Data Mashup */
-.bg-mashup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    overflow: hidden;
-    pointer-events: none; 
-    opacity: 0.04; /* Keeps it incredibly subtle */
-    filter: grayscale(100%) contrast(150%); /* Strips color, sharpens lines */
-}
-.bg-mashup img {
-    position: absolute;
-    border-radius: 8px;
-}
+        .bg-mashup {
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  width: 100vw;
+                  height: 100vh;
+                  z-index: -1;
+                  overflow: hidden;
+                  pointer-events: none; 
+                  opacity: 0.04; /* Keeps it incredibly subtle */
+                  filter: grayscale(100%) contrast(150%); /* Strips color, sharpens lines */
+                   }
+        .bg-mashup img {
+                  position: absolute;
+                  border-radius: 8px;
+                        }      
     </style>
 </head>
 <body>
+     
+     <!-- Background Watermark -->
+    <div class="bg-mashup">
+        <!-- Human Activity t-SNE -->
+        <img src="https://github.com/srvds/Human-Activity-Recognition/blob/master/t-sne_perp_50_iter_1000.png?raw=true" style="top: -5%; left: -5%; width: 600px; transform: rotate(-10deg);">
+        <!-- Quora Word Cloud -->
+        <img src="https://github.com/srvds/Quora-question-similarity/blob/master/plots/plot1.png?raw=true" style="top: 60%; left: 75%; width: 500px; transform: rotate(5deg);">
+        <!-- Taxi Map Clustering -->
+        <img src="https://github.com/srvds/Taxi-Demand_Prediction/blob/master/plot/plot1.PNG?raw=true" style="top: 70%; left: -10%; width: 450px; transform: rotate(15deg);">
+        <!-- Cancer Diagnosis Precision Matrix -->
+        <img src="https://github.com/srvds/Personalized-Cancer-Diagnosis/blob/master/plots/rf-responsecode-pricision.png?raw=true" style="top: 10%; left: 65%; width: 550px; transform: rotate(-5deg);">
+    </div>
 
+
+    
     <nav>
         <a href="index.html" class="nav-brand">Sourav<span>Das</span></a>
         <div class="nav-links">
