@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Das | Software Professional Services</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #475569;
+            --accent: #2563eb;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+        }
+        /* Navigation Bar */
+        nav {
+            background-color: var(--card-bg);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .nav-brand { font-size: 1.25rem; font-weight: bold; color: #0f172a; text-decoration: none; }
+        .nav-links a { margin-left: 1.5rem; text-decoration: none; color: var(--text-muted); font-weight: 500; }
+        .nav-links a:hover { color: var(--accent); }
+        .nav-links a.active { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 0.25rem; }
+
+        /* Main Content */
+        .container { max-width: 960px; margin: 0 auto; padding: 4rem 1rem; }
+        .hero { text-align: center; margin-bottom: 4rem; }
+        .hero h1 { font-size: 3rem; color: #0f172a; margin-bottom: 1rem; }
+        .hero p { font-size: 1.25rem; color: var(--text-muted); max-width: 700px; margin: 0 auto; }
+        
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem; }
+        .service-card { background: var(--card-bg); padding: 2rem; border-radius: 0.5rem; border: 1px solid var(--border); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .service-card h3 { color: #0f172a; margin-top: 0; border-bottom: 2px solid #eff6ff; padding-bottom: 0.5rem; }
+        
+        .cta-section { background: #eff6ff; padding: 3rem; text-align: center; border-radius: 0.5rem; border: 1px solid #bfdbfe; }
+        .btn { display: inline-block; background: var(--accent); color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 0.375rem; font-weight: bold; margin-top: 1rem; }
+        .btn:hover { background: #1d4ed8; }
+    </style>
+</head>
+<body>
+
+    <!-- Shared Navigation -->
+    <nav>
+        <a href="index.html" class="nav-brand">Sourav Das</a>
+        <div class="nav-links">
+            <a href="index.html" class="active">Business Services</a>
+            <a href="portfolio.html">Technical Portfolio</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Professional Data Services</h1>
+            <p>Independent Software Professional specializing in high-volume data processing, statistical modeling, and actionable business intelligence for B2B applications.</p>
+        </section>
+
+        <section class="services-grid">
+            <div class="service-card">
+                <h3>Data Processing & Validation</h3>
+                <p>Developing robust pipelines for data cleaning, normalization, and structural formatting. Transforming raw, unstructured datasets into high-fidelity data assets ready for enterprise analysis.</p>
+            </div>
+            <div class="service-card">
+                <h3>Predictive Analytics & Modeling</h3>
+                <p>Applying Machine Learning (ML) and Deep Learning (DL) frameworks to forecast operational trends, optimize resource distribution, and solve complex classification problems.</p>
+            </div>
+            <div class="service-card">
+                <h3>Custom Algorithm Development</h3>
+                <p>Designing bespoke statistical models and recommendation engines utilizing advanced techniques like Natural Language Processing (NLP), Convolutional Neural Networks (CNN), and Gradient Boosting.</p>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Technical Proof of Concept</h2>
+            <p>Compliance and operational transparency are built into our workflow. Review our deep-dive technical case studies, methodology, and raw code outputs.</p>
+            <a href="portfolio.html" class="btn">View Technical Portfolio</a>
+        </section>
+    </div>
+
+</body>
+</html>
