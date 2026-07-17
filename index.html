@@ -81,22 +81,26 @@
         .footer-bottom { text-align: center; color: #64748b; font-size: 0.85rem; margin-top: 2rem; }
 
         /* Background Data Mashup */
-        .bg-mashup {
-                  position: fixed;
-                  top: 0;
-                  left: 0;
-                  width: 100vw;
-                  height: 100vh;
-                  z-index: -1;
-                  overflow: hidden;
-                  pointer-events: none; 
-                  opacity: 0.04; /* Keeps it incredibly subtle */
-                  filter: grayscale(100%) contrast(150%); /* Strips color, sharpens lines */
-                   }
-        .bg-mashup img {
-                  position: absolute;
-                  border-radius: 8px;
-                        }      
+.bg-mashup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none; 
+    opacity: 0.12; /* Cranked up to 12% visibility */
+    filter: grayscale(100%) contrast(120%); 
+    mix-blend-mode: multiply; /* Magic trick: makes the white parts of the images invisible */
+}
+.bg-mashup img {
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+
     </style>
 </head>
 <body>
